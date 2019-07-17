@@ -7,7 +7,7 @@ class BookmarkApp < Sinatra::Base
   end
 
   get '/bookmarks' do
-    @bookmarks = Bookmark.all
+    p @bookmarks = Bookmark.all
     erb :bookmarks
   end
 
@@ -27,6 +27,15 @@ class BookmarkApp < Sinatra::Base
 
   post '/bookmarks/delete' do
     Bookmark.delete(title: params[:title])
+    redirect '/bookmarks'
+  end
+
+  get '/bookmarks/update' do
+    erb :update_bookmark
+  end
+
+  post '/bookmarks/update' do
+    Bookmark.update(old_title: params[:old_title], new_title: params[:new_title], new_url: params[:new_url])
     redirect '/bookmarks'
   end
 
