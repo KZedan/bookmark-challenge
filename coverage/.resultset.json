@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/kareem/Projects/bookmark-challenge/spec/bookmark_spec.rb": [
+      "/Users/jamiepalmer/Projects/bookmarkwednesday/bookmark-challenge/spec/bookmark_spec.rb": [
         1,
         1,
         null,
@@ -36,28 +36,57 @@
         1,
         null,
         null,
-        null
-      ],
-      "/Users/kareem/Projects/bookmark-challenge/spec/database_helpers.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         1,
         null,
         1,
         1,
         1,
-        null
-      ],
-      "/Users/kareem/Projects/bookmark-challenge/spec/features/adding_a_bookmark_spec.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
+        null,
+        null,
+        null,
         null,
         null
       ],
-      "/Users/kareem/Projects/bookmark-challenge/spec/features/viewing_bookmarks_spec.rb": [
+      "/Users/jamiepalmer/Projects/bookmarkwednesday/bookmark-challenge/spec/database_helpers.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/jamiepalmer/Projects/bookmarkwednesday/bookmark-challenge/spec/features/adding_a_bookmark_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/jamiepalmer/Projects/bookmarkwednesday/bookmark-challenge/spec/features/deleting_a_bookmark_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/jamiepalmer/Projects/bookmarkwednesday/bookmark-challenge/spec/features/viewing_bookmarks_spec.rb": [
         1,
         null,
         1,
@@ -75,6 +104,6 @@
         null
       ]
     },
-    "timestamp": 1563361988
+    "timestamp": 1563371272
   }
 }

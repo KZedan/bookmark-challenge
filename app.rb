@@ -21,5 +21,14 @@ class BookmarkApp < Sinatra::Base
     redirect '/bookmarks'
   end
 
+  get '/bookmarks/delete' do
+    erb :delete_bookmark
+  end
+
+  post '/bookmarks/delete' do
+    Bookmark.delete(title: params[:title])
+    redirect '/bookmarks'
+  end
+
   run! if app_file == $0
 end
